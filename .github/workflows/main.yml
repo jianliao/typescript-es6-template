@@ -1,0 +1,16 @@
+name: CI
+on:
+  - push
+  - pull_request
+jobs:
+  test:
+    name: Unit test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+      - name: Npm installation
+        run: npm install
+      - name: Run test
+        run: npm test

@@ -1,2 +1,2 @@
-# typescript-es6-template
-Template: ES6 + Typescript
+# Typescript ESM Template
+NodeJS template project for ESM + Typescript

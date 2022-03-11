@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/node16",
+  "compilerOptions": {
+    "module": "ES2020",
+    "outDir": "dist"
+  }
+}
